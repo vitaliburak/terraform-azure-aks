@@ -1,4 +1,6 @@
 # This module creates azure-vm-scale-set
+
+```
 module "ss" {
     source                  = "vitaliburak/aks/ss"
     resource_group_name     = "example-resources"
@@ -16,4 +18,4 @@ module "ss" {
     os_sku                  = "16.04-LTS"
     os_version              = "latest"
 }
-
+```
